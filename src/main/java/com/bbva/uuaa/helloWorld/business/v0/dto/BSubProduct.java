@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class BIdentityDocuments {
-    private String documentNumber;
-    private String documentType;
+public class BSubProduct {
+    private String id;
+
 }

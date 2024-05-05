@@ -5,9 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class BCreateUserOut {
+public class BCreateUser {
     private String name;
     private String surname;
-    private String documentNumber;
-    private String documentType;
+    private BIdentityDocuments identityDocuments;
 }
